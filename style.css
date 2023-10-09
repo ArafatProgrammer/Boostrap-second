@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.header1{
+    margin-top: 100px;
+
+}
+.header1  h1{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 136.364% */
+
+}
+.header1 .ptg{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 497px;
+height: 66px;
+}
+ .header1 button{
+    color: #FFF;
+font-family: Heebo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 2px;
+background:  #FF6464;
+width: 167px;
+height: 40px;
+ }
+
+ /* .img2 {
+    margin-left: 60px;
+
+ } */
+.img2 div{
+ background: url(https://www.freevector.com/uploads/vector/preview/17784/FreeVector-Global-Business-Background-1.jpg);
+ width: 243px;
+ height: 243px;
+ border-radius: 243px;
+
+}
+
+.col1div div h2{
+  color: #21243D;
+font-family: Heebo;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.col1div div span{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.col1div .info > p{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.col1div{
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+height: 295px
+}
+.section1{
+    background: #EDF7FA;
+    margin-top: -200px;
+ 
+    
+}
+
+.navbox{
+   transform: translateY(+30px);
+
+}
+.navBox span{
+color: #21243D;
+font-family: Heebo;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 272.727% */
+}
+
+.navBox .spn2{
+
+text-align: right;
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* section 2 start form here */
+/* .col12 .coll5 div{
+
+background: url(nice\ -pic.png.png);
+
+width: 246px;
+height: 180px;
+flex-shrink: 0;
+
+} */
+
+
+.col12 .secondcoll div h1{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.col12 .text-div .years{
+    color: #FFF;
+font-family: Heebo;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 333.333% */
+background-color: #142850;
+
+}
+
+.col12 .text-div .desh{
+    color: #8695A4;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+
+.col12 .ptg{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -9px;
+
+
+}
+
+.col12 .text-div{
+    margin-top: -1px;
+}
+
+
+.section2 .forh2 {
+    color: #21243D;
+font-family: Heebo;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 272.727% */
+transform: translateY(-20px);
+}
+
+
+/* footer section start */
+
+.footer{
+margin-top: 100px;
+margin-bottom: 100px;
+
+    
+}
+
+.footer .spntg span{
+    padding: 0px 5px;
+    
+}
+.footer .for-p{
+    color: var(--Dark, #21243D);
+text-align: center;
+font-family: Heebo;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} 
+ /* this is media quary under allthings */
+@media (min-width:768px)  and (max-width:991px){
+ .header1 .img2{
+    padding:0px 10px;
+    margin-top: 30px;
+    text-align: center;
+ }
+ .header1 .ptg{
+    max-width: 400px;
+ }
+
+ .navBox ul li a {
+    color: #000;
+
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} 
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+   .div-text{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 200px;
+    transform: translateY(+50px);
+
+   }
+   .header1 .img2{
+   transform: translateY(-620px);
+   text-align: center;
+display: flex;
+justify-content: center;
+
+align-items: center;
+margin-top: 50px;
+
+    
+   }
+   .section1{
+    transform: translateY(-297px)
+   }
+   .section2{
+    margin-top: 20px;
+   }
+   .section2 .coll5 div{
+   max-width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    
+   }
+
+
+   .section2{
+
+ transform: translateY(-250px);
+    
+   }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:992px) and (max-width:3000px){
+
+    .navBox ul li a {
+        color: #080303;
+        text-align: right;
+        font-family:sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    } 
+    .navBox ul{
+        margin-left:83%;
+    }
+
+
+}
+
+
+
+
